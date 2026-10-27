@@ -1,0 +1,10 @@
+# Code generation is used by this package's tests and example only: their
+# databases are generated like an application's would be. The library itself
+# generates nothing.
+targets:
+  $default:
+    builders:
+      drift_dev:
+        generate_for:
+          - test/support/*.dart
+          - example/*.dart

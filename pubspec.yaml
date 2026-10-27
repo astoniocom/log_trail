@@ -1,0 +1,12 @@
+name: log_trail_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.13.4
+
+workspace:
+  - packages/log_trail
+  - packages/log_trail_flutter
+  - packages/log_trail_sqlite
+  - packages/log_trail_drift
+  - packages/log_trail_flutter/example

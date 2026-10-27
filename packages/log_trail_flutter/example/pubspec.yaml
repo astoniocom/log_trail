@@ -1,0 +1,19 @@
+name: log_trail_example
+description: "Example app for log_trail_flutter: error hooks, console sink, navigator observer and the in-app log viewer."
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  log_trail_flutter: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

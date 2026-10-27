@@ -1,0 +1,21 @@
+name: log_trail_sqlite
+description: "SQLite store for log_trail: the log survives restarts, with indexed pages, tag counts and FTS5 text search."
+resolution: workspace
+version: 0.1.0
+repository: https://github.com/astoniocom/log_trail/tree/main/packages/log_trail_sqlite
+issue_tracker: https://github.com/astoniocom/log_trail/issues
+topics:
+  - logging
+  - sqlite
+  - persistence
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  log_trail: ^0.1.0
+  meta: ^1.16.0
+  sqlite3: ^3.8.0
+
+dev_dependencies:
+  test: ^1.26.0

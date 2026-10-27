@@ -1,0 +1,23 @@
+name: log_trail_flutter
+description: "Flutter integration for log_trail: error hooks, a Flutter-aware console sink, a navigator observer and an in-app log viewer."
+resolution: workspace
+version: 0.1.0
+repository: https://github.com/astoniocom/log_trail/tree/main/packages/log_trail_flutter
+issue_tracker: https://github.com/astoniocom/log_trail/issues
+topics:
+  - logging
+  - flutter
+  - log-viewer
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  collection: ^1.19.1
+  flutter:
+    sdk: flutter
+  log_trail: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
