@@ -1,5 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
+import 'package:meta/meta.dart';
 
 /// [widgets] with [separator] between neighbors; an empty list for an empty list.
 @internal

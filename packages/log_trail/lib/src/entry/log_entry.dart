@@ -100,11 +100,12 @@ final class LogEntry {
     required this.level,
     required this.message,
     Set<String> tags = const {},
-    this._callSite = CallSite.unknown,
+    CallSite callSite = CallSite.unknown,
     this.stackTrace,
     this.error,
     LogAttributes? attributes,
   }) : tags = Set.unmodifiable(tags),
+       _callSite = callSite,
        attributes = attributes ?? LogAttributes.empty;
 
   /// Moment of the event as passed in: UTC or local time. Entries compare by

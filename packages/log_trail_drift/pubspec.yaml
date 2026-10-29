@@ -1,7 +1,7 @@
 name: log_trail_drift
 description: "Drift log store for log_trail: one table in your own drift database, with SQLite in a background isolate or on the web."
 resolution: workspace
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/astoniocom/log_trail/tree/main/packages/log_trail_drift
 issue_tracker: https://github.com/astoniocom/log_trail/issues
 topics:
@@ -11,7 +11,7 @@ topics:
   - persistence
 
 environment:
-  sdk: ^3.13.4
+  sdk: ^3.10.0
 
 dependencies:
   drift: ^2.35.0

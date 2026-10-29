@@ -1,7 +1,7 @@
 name: log_trail
 description: "Logging facade that starts before the app is ready: a buffered root logger, typed entries, pluggable sinks and processors."
 resolution: workspace
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/astoniocom/log_trail/tree/main/packages/log_trail
 issue_tracker: https://github.com/astoniocom/log_trail/issues
 topics:
@@ -10,7 +10,7 @@ topics:
   - diagnostics
 
 environment:
-  sdk: ^3.13.4
+  sdk: ^3.8.0
 
 dependencies:
   collection: ^1.19.1
