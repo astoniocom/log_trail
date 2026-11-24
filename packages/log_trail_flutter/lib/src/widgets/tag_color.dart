@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Tag color: the same tag is always colored the same, on every platform.
 Color colorForTag(String tag) {

@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:log_trail/log_trail.dart';
 import 'package:log_trail_flutter/src/widgets/tag_color.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Log viewer colors: an extension of the app theme.
 ///

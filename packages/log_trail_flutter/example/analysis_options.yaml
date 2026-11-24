@@ -2,4 +2,5 @@ analyzer:
   exclude:
     - android/**
     - ios/**
+    - macos/**
 include: package:log_trail/analysis_options.yaml

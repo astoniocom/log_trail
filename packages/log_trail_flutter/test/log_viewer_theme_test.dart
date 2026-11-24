@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:log_trail_flutter/log_trail_flutter.dart';
 import 'package:log_trail_flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart';
 
 LogEntry _entry(LogLevel level) =>
     LogEntry(time: DateTime(2026, 1, 1, 12), level: level, message: 'message', tags: const {'net'});

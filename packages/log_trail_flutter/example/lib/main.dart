@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:ui' show PlatformDispatcher;
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:log_trail_flutter/log_trail_flutter.dart';
 import 'package:log_trail_flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Declared once, typed: `userId('42')` attaches it to an entry and
 /// `entry.attributes.get(userId)` reads it back as a `String?`, also from the store.

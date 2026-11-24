@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:log_trail/log_trail.dart';
 import 'package:log_trail/storage.dart';
 import 'package:log_trail_flutter/src/widgets/log_viewer_controller.dart';
 import 'package:log_trail_flutter/src/widgets/log_viewer_strings.dart';
 import 'package:log_trail_flutter/src/widgets/log_viewer_theme.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Bottom sheet for choosing a filter: text search, levels and tags. Every change is passed to
 /// [onFilterChanged]: levels and tags immediately, text after [searchDelay] since the last

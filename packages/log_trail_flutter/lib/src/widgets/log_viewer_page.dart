@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:log_trail/log_trail.dart';
 import 'package:log_trail/storage.dart';
 import 'package:log_trail_flutter/src/widgets/log_entry_details_page.dart';
@@ -9,6 +8,7 @@ import 'package:log_trail_flutter/src/widgets/log_filter_sheet.dart';
 import 'package:log_trail_flutter/src/widgets/log_viewer_controller.dart';
 import 'package:log_trail_flutter/src/widgets/log_viewer_strings.dart';
 import 'package:log_trail_flutter/src/widgets/log_viewer_theme.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Handler for tapping an entry in [LogViewerPage]: the entry with its store id, by which the
 /// app can open it via its own route.

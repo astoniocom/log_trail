@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:log_trail/log_trail.dart';
 import 'package:log_trail_flutter/src/widgets/log_viewer_theme.dart';
 import 'package:log_trail_flutter/src/widgets/separators.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Entry list tile: level, message, tags and time.
 ///

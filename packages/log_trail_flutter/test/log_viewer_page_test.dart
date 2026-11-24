@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:log_trail_flutter/log_trail_flutter.dart';
 import 'package:log_trail_flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart';
 
 class _StoreUnavailableException implements Exception {
   const _StoreUnavailableException();
